@@ -1,0 +1,36 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Lacquer&family=Metal+Mania&display=swap" rel="stylesheet">
+
+span.a{
+		display: inline-block;
+		padding: 5px;
+		font-family: 'Big Shoulders Inline Text', cursive;
+		}
+h1{
+	font-family: 'Metal Mania', cursive;
+	font-size: 1000%;
+	text-align: center;
+	}
+h2{ 
+	font-family: 'Big Shoulders Inline Text', cursive;
+	font-size:750%;
+	text-align: center;
+}
+.topnav {
+	font-family: 'Big Shoulders Inline Text', cursive;
+	font-size:750%;
+	text-align: center;
+}
+.topnav a {
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 25px;
+}
+.topnav a:hover {
+	background-color: #000000;
+	color: white;
+}
+.topnav a.active {
+	background-color: white;
+	color: black;
+}
