@@ -1,5 +1,4 @@
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text&family=Lacquer&family=Metal+Mania&display=swap" rel="stylesheet">
+
 
 span.a{
 		display: inline-block;
@@ -10,18 +9,108 @@ h1{
 	font-family: 'Metal Mania', cursive;
 	font-size: 1000%;
 	text-align: center;
+	text-shadow: 2px 2px 2px 2px #FF0000, 4px 4px #FFFFFF, 6px 6px #0000FF;
 	}
-h2{ 
-	font-family: 'Big Shoulders Inline Text', cursive;
-	font-size:750%;
+h4{
+	font-family: 'Metal Mania', cursive;
+	font-size:500%;
 	text-align: center;
+}
+.gunhead{
+	font-family: 'Metal Mania', cursive;
+	font-size: 500%;
+	text-align: center;
+	text-shadow: 2px 2px #3b3b38;
+	}
+.biden{
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	font-size:26px;
+}
+.space{
+	margin-top:1in;
+}
+.bold {
+	background-color: black;
+	color:white;
+	font-family:'Metal Mania',cursive;
+	font-size:150%;
+	text-align: center;
+}
+
+.definitions{
+		position: absolute;
+	left: 10px;
+	width: 300px;
+	border: 1px solid black;
+	padding: 10px;
+		font-family: 'Permanent Marker', cursive;
+	font-size: 125%;
+	padding: 25px;
+}
+.videos{
+		margin:auto;
+	left: 10px;
+	width: 6in;
+	border: 1px solid black;
+	padding: 10px;
+		font-family: 'Permanent Marker', cursive;
+	font-size: 125%;
+	padding: 25px;
+	float:left;
+}
+.about{
+	font-family: 'Do Hyeon', sans-serif;
+	text-align:center;
+	font-size:36px;
+}
+.bpdefined{
+	display: inline-block;
+		position: absolute;
+	right: 10px;
+	width: 300px;
+	border: 1px solid black;
+	padding: 10px;
+		font-family: 'Permanent Marker', cursive;
+	font-size: 125%;
+	padding: 25px;
+}
+.greatest{
+	width:6in;
+	height:6in;
+	display:inline-block;
+	padding:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:black;
+	word-wrap:break-word;
+}
+.patsjpg{
+	display: inline-block;
+	position: absolute;
+	margin: auto;
+	padding-left: 450px;
+	
+}
+.we_are{ 
+	font-family: 'Lacquer', cursive;
+	font-size: 150%;
+	text-align:center;
 }
 .topnav {
 	font-family: 'Big Shoulders Inline Text', cursive;
-	font-size:750%;
 	text-align: center;
 }
-.topnav a {
+.topnav a:link {
+	text-decoration:none;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 25px;
+}
+.topnav a:visited {
+	text-decoration:none;
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	font-size: 25px;
@@ -33,4 +122,14 @@ h2{
 .topnav a.active {
 	background-color: white;
 	color: black;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-family:'Do Hyeon', sans-serif;
 }
